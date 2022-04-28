@@ -3,5 +3,10 @@
     "window.zoomLevel": -1,
     "editor.cursorStyle": "block",
     "diffEditor.ignoreTrimWhitespace": false,
-    "typescript.preferences.importModuleSpecifier": "relative"
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "git.autofetch": true,
+    "eslint.format.enable": true,
+    ///"editor.codeActionsOnSave": {
+     ///   "source.fixAll.eslint": true
+    ///}
 }
