@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": -1,
+    "editor.cursorStyle": "block",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "typescript.preferences.importModuleSpecifier": "relative"
+}
