@@ -12,6 +12,7 @@
 
 ## Customize prompt
 You've got sample in HOME/.bashrc
+[.bashrc customized lines](https://github.com/jlemanjs/InstallComputer/blob/11812da87ac28ad520095f5327a8baa0aeba52a5/HOME/.bashrc#L58-L70)
 
 ## Connection github throught limited internet connection
 You've got sample in .ssh/config
