@@ -9,3 +9,9 @@
 - Hit boot selection menu key (F12) until the menu display.
 - Make (Ctrl + C) to avoid the first data integrity check.
 - Make a full install on the harddrive.
+
+## Customize prompt
+You've got sample in HOME/.bashrc
+
+## Connection github throught limited internet connection
+You've got sample in .ssh/config
