@@ -16,3 +16,7 @@ You've got sample in HOME/.bashrc
 
 ## Connection github throught limited internet connection
 You've got sample in .ssh/config
+
+## Firefox customization
+
+browser.tabs.insertAfterCurrent true
