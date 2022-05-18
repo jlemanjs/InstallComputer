@@ -20,3 +20,8 @@ You've got sample in .ssh/config
 ## Firefox customization
 
 browser.tabs.insertAfterCurrent true
+
+## Visual Studio Code
+
+Exclude search files :
+``dist/*,node_modules/*,client/dist/*``
