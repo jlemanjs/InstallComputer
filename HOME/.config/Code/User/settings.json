@@ -4,6 +4,7 @@
     "editor.cursorStyle": "block",
     "diffEditor.ignoreTrimWhitespace": false,
     "typescript.preferences.importModuleSpecifier": "relative",
+    "workbench.editor.enablePreview": false,
     "git.autofetch": true,
     "eslint.format.enable": true,
     ///"editor.codeActionsOnSave": {
