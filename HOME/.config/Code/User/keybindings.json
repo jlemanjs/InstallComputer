@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "ctrl+q",
+      "command": "-workbench.action.quit"
+  },
+  {
+      "key": "ctrl+d",
+      "command": "editor.action.duplicateSelection"
+  },
+  {
+      "key": "ctrl+l",
+      "command": "editor.action.addSelectionToNextFindMatch",
+      "when": "editorFocus"
+  },
+  {
+      "key": "ctrl+q",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "ctrl+shift+[Period]",
+      "command": "-editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "ctrl+shift+s",
+      "command": "-workbench.action.files.saveAs"
+  },
+  {
+      "key": "ctrl+shift+s",
+      "command": "workbench.action.files.saveFiles"
+  }
+]
