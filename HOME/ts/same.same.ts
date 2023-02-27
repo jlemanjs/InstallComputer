@@ -17,7 +17,7 @@ const fileEnvBack: Collection = {
 checkDiff(fileEnvBack);
 
 const fileEnvFront: Collection = {
-  files: [".env"],
+  files: [".env", ".env.production"],
   source: "/home/corbofo/dev/logistic-rdv/client/",
   dest: "/home/corbofo/devBis/logistic-rdv/client/",
 };
