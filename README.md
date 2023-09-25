@@ -20,8 +20,15 @@ You've got sample in .ssh/config
 ## Firefox customization
 
 browser.tabs.insertAfterCurrent true
+browser.ctrlTab.sortByRecentlyUsed true
 
 ## Visual Studio Code
 
 Exclude search files :
 ``dist/*,node_modules/*,client/dist/*``
+
+## Copy files for an other PC
+### Install open ssh server on source PC
+``sudo apt install openssh-server``
+### Copy files from source home folder to local backup folder
+``rsync -avzh --stats --progress sourceUserName@sourceIP:~/ ./``
