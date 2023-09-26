@@ -1,34 +1,52 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": -1,
-    "editor.cursorStyle": "block",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "typescript.preferences.importModuleSpecifier": "relative",
-    "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-        "tab.activeBackground": "#005500"
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": -1,
+  "editor.cursorStyle": "block",
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00580c"
     },
-    "editor.tabSize": 2,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.mergeEditor": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.title": "${dirty}${activeEditorLong}${separator}${remoteName}${separator}vsCode",
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-//    "git.autofetch": true,
-    // "eslint.format.enable": true,
-    ///"editor.codeActionsOnSave": {
-     ///   "source.fixAll.eslint": true
-    ///}
+    {
+      "column": 120,
+      "color": "#690000"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#005500"
+  },
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.mergeEditor": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.title": "${dirty}${activeEditorLong}${separator}${remoteName}${separator}vsCode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "explorer.autoRevealExclude": {
+    "**/bower_components": false,
+    "**/node_modules": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  //    "git.autofetch": true,
+  // "eslint.format.enable": true,
+  ///"editor.codeActionsOnSave": {
+  ///   "source.fixAll.eslint": true
+  ///}
 }
