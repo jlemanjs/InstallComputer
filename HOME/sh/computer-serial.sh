@@ -1,0 +1,1 @@
+sudo dmidecode -s system-serial-number

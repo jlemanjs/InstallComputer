@@ -43,7 +43,7 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
   //    "git.autofetch": true,
   // "eslint.format.enable": true,
   ///"editor.codeActionsOnSave": {
