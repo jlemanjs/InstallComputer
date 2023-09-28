@@ -34,22 +34,22 @@
   {
     "key": "ctrl+pagedown",
     "command": "-workbench.action.nextEditor"
-},
-{
+  },
+  {
     "key": "ctrl+pageup",
     "command": "-workbench.action.previousEditor"
-},
-{
+  },
+  {
     "key": "ctrl+pagedown",
     "command": "merge-conflict.next",
     "when": "editorFocus"
-},
-{
+  },
+  {
     "key": "ctrl+pageup",
     "command": "merge-conflict.previous",
     "when": "editorFocus"
-},
-{
+  },
+  {
     "key": "ctrl+left",
     "command": "cursorWordPartLeft"
   },
