@@ -13,7 +13,7 @@
     }
   ],
   "diffEditor.ignoreTrimWhitespace": false,
-  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "workbench.editor.enablePreview": false,
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#005500"
