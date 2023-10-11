@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.5"
+  }
+}
