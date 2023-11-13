@@ -60,6 +60,10 @@ parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
 }
 
+git_short_commit() {
+ git rev-parse --short HEAD 2> /dev/null
+}
+
 export -f parse_git_branch
 
 get_node_version() {
@@ -71,10 +75,16 @@ get_date_i() {
 }
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\] ($(parse_git_branch)) \[\033[01;32m\]$(get_node_version)\[\033[00m\] \[\033[01;35m\]$(get_date_i)\[\033[00m\]\n\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\] ($(parse_git_branch) $(git_short_commit)) \[\033[01;32m\]$(get_node_version)\[\033[00m\] \[\033[01;35m\]$(get_date_i)\[\033[00m\]\n\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w($(parse_git_branch))\$ '
 fi
+
+##if [ "$color_prompt" = yes ]; then
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#else
+#    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+#fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
