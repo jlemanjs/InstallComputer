@@ -21,6 +21,7 @@ You've got sample in .ssh/config
 
 browser.tabs.insertAfterCurrent true
 browser.ctrlTab.sortByRecentlyUsed true
+toolkit.legacyUserProfileCustomizations.stylesheets true
 
 ## Visual Studio Code
 

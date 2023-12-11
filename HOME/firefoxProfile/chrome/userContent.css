@@ -1,0 +1,5 @@
+
+@-moz-document domain(atlassian.net) {
+  code.code { background-color: #373e46 !important; }
+  span.code { background-color: #373e46 !important; }
+}
