@@ -16,21 +16,11 @@
   // 	"description": "Log output to console"
   // }
 
-  "singleton": {
-    "prefix": "single",
+  "arrow =>": {
+    "prefix": "ar",
     "body": [
-      "private static instance: $0;",
-      "",
-      "private constructor() { }",
-      "",
-      "public static getInstance(): $0 {",
-      "\tif (!$0.instance) {",
-      "\t\t$0.instance = new $0();",
-      "\t}",
-      "\treturn $0.instance;",
-      "}",
-      ""
+      " => {$0}",
     ],
-    "description": "Singleton Pattern Snippet"
+    "description": "arrow Snippet"
   }
 }
