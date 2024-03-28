@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 1,
   "editor.cursorStyle": "block",
   "editor.rulers": [
     {
@@ -25,18 +25,20 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.mergeEditor": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.title": "${dirty}${activeEditorLong}${separator}${remoteName}${separator}vsCode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "editor.minimap.enabled": false,
+  "explorer.autoReveal": true,
   "explorer.autoRevealExclude": {
     "**/bower_components": false,
     "**/node_modules": false
@@ -44,9 +46,28 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  //"git.mergeEditor": false,
   //    "git.autofetch": true,
   // "eslint.format.enable": true,
   ///"editor.codeActionsOnSave": {
   ///   "source.fixAll.eslint": true
   ///}
+  "editor.renderWhitespace": "all",
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.minimap.enabled": false,
+  "peacock.favoriteColors": [
+    { "name": "logistic-rdv", "value": "#095804" },
+    { "name": "waresito-frontend", "value": "#583e04" }
+  ],
+  "peacock.affectActivityBar": true,
+  "peacock.affectStatusBar": true,
+  "peacock.affectTitleBar": true,
+  "window.titleBarStyle": "custom",
+  "window.title": "${dirty}${activeEditorLong}${separator}${remoteName}${separator}vsCode",
+  "codeium.enableConfig": {
+    "*": true,
+    "json": false
+  }
 }
